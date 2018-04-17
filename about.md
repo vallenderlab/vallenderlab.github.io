@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-<div class="container">
-    <div class="row">
+<div class="special-container">
+    <div class="special-row">
         <div class="col-lg-12">
             <h1 class="page-header">About Our Lab</h1>
             <p>As one of the newest members of the Department of Psychiatry and Human Behavior, Dr. Vallender's research plays a key role in linking the functional genetics of species of interest to various behavioral phenotypes in comparative genetic studies. This type of research helps reveal the roles of specific genes in human addictions and psychological illnesses. The lab also uses similar relationships that genes have among other species in order to highlight new and interesting areas of genetic and molecular research. By collaborating with other scientists inside and outside of UMMC, the lab provides valuable insights to other bioinformatic studies as well.</p>
@@ -15,25 +15,22 @@ permalink: /about/
     <br/>
 
     <!-- Current Projects -->
-    <div class="row">
+    <div class="special-row">
         <div class="col-lg-12">
-            <h1 class="page-header">Current Projects
-                </h1>
+            <h1 class="page-header">Current Projects</h1>
             <p>
                 <ul>
                     <li>Comparative evolutionary studies of orthologs across GPCRs & addiction related genes (<a href="https://www.drugabuse.gov/nida-genetics-program/other-resources-in-genetics-cell-biology-neuroscience-research/knowledgebase-addiction-related-genes-ka" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">KARG</a>)</li>
                     <li>Biased signaling studies of DRD4 and Mu-Opioid receptor polymorphisms on GPCRs</li>
                     <li>Microbiome analysis to determine potential substance abuse relationships</li>
-                    <!-- <li>Whole-genome analyses of Rhesus Macaques across multiple primate centers</li> -->
                     <li>Studying mRNA expression in various tissue types of genes implicated in psychiatric disorders and genotyping specimens to determine how/if genotypes relate to phenotypes</li>
                 </ul>
-            </p>
         </div>
     </div>
     <br/>
 
     <!-- Team Members Row -->
-    <div class="row">
+    <div class="special-row">
         <div class="col-lg-12">
             <h1 class="page-header">Lab Members</h1>
         </div>
@@ -51,7 +48,7 @@ permalink: /about/
     <br/>
     <br/>
 
-    <div class="row">
+    <div class="special-row">
         <div class="col-lg-4 col-sm-6 text-center">
             <img class="img-circle img-center" src="{{ 'assets/img/xz.jpg' | relative_url }}" width="180" height="180" alt="">
             <h3>Xiao Zhang
@@ -62,7 +59,9 @@ permalink: /about/
                 <a href="https://www.umc.edu/education/schools/graduate_studies/neuroscience/xiao_zhang.aspx"><i class="fa fa-university" aria-hidden="true"></i></a>
             </p>
             <p><a href="{{ 'assets/img/Xiao-SFN-2016.pdf' | relative_url }}" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Society for Neuroscience 2016 Poster</a></p>
+
         </div>
+
         <div class="col-lg-4 col-sm-6 text-center">
             <img class="img-circle img-center" src="{{ 'assets/img/rg.png' | relative_url }}" width="180" height="180" alt="">
             <h3>Robert Gilmore
@@ -74,6 +73,7 @@ permalink: /about/
                 <a href="https://github.com/grabear"><i class="fa fa-github" aria-hidden="true"></i></a>
             </p>
         </div>
+
         <div class="col-lg-4 col-sm-6 text-center">
             <img class="img-circle img-center" src="{{ 'assets/img/sdh.jpg' | relative_url }}" width="180" height="180" alt="">
             <h3>Shaurita D. Hutchins
@@ -89,11 +89,10 @@ permalink: /about/
 
     <hr>
 
-</div>
-<!-- /.container -->
+    <!-- /.container -->
 
-<!-- jQuery -->
-<script src="{{ 'assets/js/jquery.js' | relative_url }}"></script>
+    <!-- jQuery -->
+    <script src="{{ 'assets/js/jquery.js' | relative_url }}"></script>
 
-<!-- Bootstrap Core JavaScript -->
-<script src="{{ 'assets/js/bootstrap.min.js' | relative_url }}"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{{ 'assets/js/bootstrap.min.js' | relative_url }}"></script>

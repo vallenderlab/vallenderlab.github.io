@@ -9,7 +9,7 @@
 }
 
 
-.container {
+.special-container {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -17,13 +17,13 @@
 }
 
 @media (min-width:768px) {
-  .container {
+  .special-container {
     width: 750px;
   }
 }
 
 @media (min-width:992px) {
-  .container {
+  .special-container {
     width: 970px;
   }
 }
@@ -34,14 +34,14 @@
   }
 }
 
-.container-fluid {
+.special-container-fluid {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
 
-.row {
+.special-row {
   margin-right: -15px;
   margin-left: -15px;
 }
