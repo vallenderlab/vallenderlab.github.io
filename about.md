@@ -93,7 +93,7 @@ permalink: /about/
 <!-- /.container -->
 
 <!-- jQuery -->
-<script src="assets/js/jquery.js"></script>
+<script src="{{ 'assets/js/jquery.js' | relative_url }}"></script>
 
 <!-- Bootstrap Core JavaScript -->
-<script src="assets/js/bootstrap.min.js"></script>
+<script src="{{ 'assets/js/bootstrap.min.js' | relative_url }}"></script>
