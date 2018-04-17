@@ -3,8 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-<!-- About the Vallender Lab -->
-    <div class="special-row">
+<div class="special-row">
     <div class="col-lg-12">
         <h1>About Our Lab</h1>
         <p>As one of the newest members of the Department of Psychiatry and Human Behavior, Dr. Vallender's research plays a key role in linking the functional genetics of species of interest to various behavioral phenotypes in comparative genetic studies. This type of research helps reveal the roles of specific genes in human addictions and psychological illnesses. The lab also uses similar relationships that genes have among other species in order to highlight new and interesting areas of genetic and molecular research. By collaborating with other scientists inside and outside of UMMC, the lab provides valuable insights to other bioinformatic studies as well.</p>
