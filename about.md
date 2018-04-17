@@ -38,7 +38,7 @@ permalink: /about/
             <h1 class="page-header">Lab Members</h1>
         </div>
         <div class="col-lg-4 col-sm-6 text-center">
-            <img class="img-circle img-center" src="assets/img/ejv.jpg" width="180" height="180" alt="">
+            <img class="img-circle img-center" src="{{ 'assets/img/ejv.jpg' | relative_url }}" width="180" height="180" alt="">
             <h3><a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Vallender+EJ%5Bauthor%5D" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Dr. Eric J. Vallender, PhD</a>
                     <p><small>Principal Investigator</small></p>
                 </h3>
@@ -53,7 +53,7 @@ permalink: /about/
 
     <div class="row">
         <div class="col-lg-4 col-sm-6 text-center">
-            <img class="img-circle img-center" src="assets/img/xz.jpg" width="180" height="180" alt="">
+            <img class="img-circle img-center" src="{{ 'assets/img/xz.jpg' | relative_url }}" width="180" height="180" alt="">
             <h3>Xiao Zhang
                     <p><small>PhD Student</small></p>
                 </h3>
@@ -61,10 +61,10 @@ permalink: /about/
                 <a href="https://www.linkedin.com/in/xiao-zhang-bb784a58/"><i class="fa fa-linkedin" aria-hidden="true"></i></a> &nbsp;&nbsp;
                 <a href="https://www.umc.edu/education/schools/graduate_studies/neuroscience/xiao_zhang.aspx"><i class="fa fa-university" aria-hidden="true"></i></a>
             </p>
-            <p><a href="Xiao-SFN-2016.pdf" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Society for Neuroscience 2016 Poster</a></p>
+            <p><a href="{{ 'assets/img/Xiao-SFN-2016.pdf' | relative_url }}" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Society for Neuroscience 2016 Poster</a></p>
         </div>
         <div class="col-lg-4 col-sm-6 text-center">
-            <img class="img-circle img-center" src="assets/img/rg.png" width="180" height="180" alt="">
+            <img class="img-circle img-center" src="{{ 'assets/img/rg.png' | relative_url }}" width="180" height="180" alt="">
             <h3>Robert Gilmore
                     <p><small>Researcher II</small></p>
                 </h3>
@@ -75,7 +75,7 @@ permalink: /about/
             </p>
         </div>
         <div class="col-lg-4 col-sm-6 text-center">
-            <img class="img-circle img-center" src="assets/img/sdh.jpg" width="180" height="180" alt="">
+            <img class="img-circle img-center" src="{{ 'assets/img/sdh.jpg' | relative_url }}" width="180" height="180" alt="">
             <h3>Shaurita D. Hutchins
                     <p><small>Researcher II</small></p>
                 </h3>
