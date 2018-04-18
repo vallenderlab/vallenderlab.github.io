@@ -242,7 +242,7 @@ $( "#contactForm" ).submit( function( e ) {
     $.ajax( {
 
         // Change the email address here:
-        url: "https://formspree.io/jan.czizikow@Fmail.com",
+        url: "https://formspree.io/shutchins2@umc.edu",
         method: "POST",
         data: $( this ).serialize(),
         dataType: "json",
@@ -257,12 +257,12 @@ $( "#contactForm" ).submit( function( e ) {
             $btn.prop( "disabled", false );
             $btn.text( "Send" );
             openModal();
-            $( ".modal__body" ).append( "<h1>Thanks " + $name + "!</h1><p>Your message was successfully sent! Will get back to you soon.</p>" );
+            $( ".modal__body" ).append( "<h1>Thanks, " + $name + "!</h1><p>Your message was successfully sent! We will get back to you as soon as we can.</p>" );
 
         },
         error: function( err ) {
             $( ".modal, .modal__overlay" ).addClass( "--show" );
-            $( ".modal__body" ).append( "<h1>Aww snap!</h1><p>Something went wrong, please try again. Error message:</p>" + err );
+            $( ".modal__body" ).append( "<h1>Aww snap!</h1><p>Something went wrong. Please try again. Error message:</p>" + err );
         }
     } );
 } );

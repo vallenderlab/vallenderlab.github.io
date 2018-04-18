@@ -1,6 +1,6 @@
 title: Vallender Lab # your site title
 author: Vallender Lab
-#email: your-email@domain.com # email for form submission, you also have to change it in _js/scripts.js
+email: shutchins2@umc.edu # email for form submission, you also have to change it in _js/scripts.js
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -10,15 +10,7 @@ url: "http://www.vallenderlab.science" # the base hostname & protocol for your s
 #twitter_username: jan_czizikow # replace with your_twitter_username or comment to remove link from footer
 github_username:  vallenderlab # replace with your_github_username or comment to remove link from footer
 #instagram_username: shanlongjj # replace with your_instagram_username or comment to remove link from footer
-social:
-  name: Your Name
-  links:
-    - https://twitter.com/BenBalter
-    - https://www.facebook.com/ben.balter
-    - https://www.linkedin.com/in/BenBalter
-    - https://plus.google.com/+BenBalter
-    - https://github.com/benbalter
-    - https://keybase.io/benbalter
+
 
 disqus:
   shortname: # to enable comments replace with your_disqus_shortname

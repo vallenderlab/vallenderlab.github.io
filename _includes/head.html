@@ -12,22 +12,16 @@
   <link rel="mask-icon" href="{{ '/assets/img/icons/safari-pinned-tab.svg?v=qA3OXqyw77' | relative_url }}" color="#5bbad5">
   <!--[if IE]><link rel="shortcut icon" href="/assets/img/icons/favicon.ico?v=qA3OXqyw77"><![endif]-->
   <link rel="shortcut icon" href="{{ '/assets/img/icons/favicon.ico?v=qA3OXqyw77' | relative_url }}">
-  <meta name="apple-mobile-web-app-title" content="Sleek">
-  <meta name="application-name" content="Sleek">
+  <meta name="apple-mobile-web-app-title" content="Vallender Lab">
+  <meta name="application-name" content="Vallender Lab">
   <meta name="msapplication-config" content="{{ '/assets/img/icons/browserconfig.xml?v=qA3OXqyw77' | relative_url }}">
   <meta name="theme-color" content="#ffffff">
+  
   <!-- Bootstrap Core CSS -->
   <link href="{{ 'assets/css/style.min.css' | relative_url}}" rel="stylesheet">
 
   <!-- Custom CSS -->
   <link href="{{ 'assets/css/round-about.css' | relative_url}}"  rel="stylesheet">
-
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-  <![endif]-->
 
   {% if site.google_tag_manager %}
 
@@ -36,12 +30,13 @@
   {% endif %}
 
   <style class="inlineCSS">
-
     {% include critical.css %}
-
   </style>
+  
   <link rel="preload" href="{{ '/assets/css/main.css' | relative_url }}" as="style" onload="this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}"></noscript>
+  
+  <noscript><link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  </noscript>
   <script type="text/javascript">
    {% include loadCss.js %}
   </script>

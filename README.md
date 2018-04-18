@@ -1,5 +1,9 @@
-[![Gem Version](https://badge.fury.io/rb/jekyll-sleek.svg)](https://badge.fury.io/rb/jekyll-sleek) [![Build Status](https://travis-ci.org/janczizikow/sleek.svg?branch=master)](https://travis-ci.org/janczizikow/sleek) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/janczizikow/sleek)
-# Sleek
+---
+output: 
+  html_document: 
+    highlight: tango
+---
+# Vallender Lab Website
 
 A modern [Jekyll](https://jekyllrb.com/) theme focused on speed performance & SEO best practices.
 
@@ -11,8 +15,6 @@ A modern [Jekyll](https://jekyllrb.com/) theme focused on speed performance & SE
 * Easy [Google Tag Manager](https://tagmanager.google.com/) Integration
 * Support for [Disqus](https://disqus.com/) comments
 * Form submissions with [Formspree](https://formspree.io/)
-
-[Preview Demo](https://janczizikow.github.io/sleek/)
 
 ## Installation
 
@@ -67,38 +69,6 @@ Or install it yourself as:
     $ gem install jekyll-sleek
 
 
-## File Structure Overview
-
-```bash
-sleek
-├── _includes	                 # theme includes
-├── _js	                       # javascript files (by default jquery will be included with the scripts inside)
-├── _layouts                   # theme layouts (see below for details)
-├── _pages                     # pages folder (empty by default)
-├── _posts                     # blog posts
-├── _sass                      # Sass partials
-├── assets
-|  ├── css	                   # minified css files  
-|  ├── img                     # images and icons used for the template
-|  └── js		                   # bundled and minified files from _js folder
-├── _config.yml                # sample configuration
-├── gulpfile.js                # gulp tasks (tasks autorunner)
-├── index.md                   # sample home page (blog page)
-└── package.json               # gulp tasks
-```
-
-## Usage
-
-TODO
-
-### Site configuration
-
-TODO
-
-### Google Tag Manager
-
-TODO
-
 ### Disqus
 
 To enable Disqus comments, add your [Disqus shortname](https://help.disqus.com/customer/portal/articles/466208) to `_config.yml`:
@@ -107,23 +77,6 @@ To enable Disqus comments, add your [Disqus shortname](https://help.disqus.com/c
 disqus:
   shortname: my_disqus_shortname
 ```
-### Formspree
-
-
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/janczizikow/sleek. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-## Development
-
-To set up your environment to develop this theme, run `bundle install`.
-
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `jekyll-sleek.gemspec` accordingly.
 
 ## License
 
