@@ -32,10 +32,9 @@ permalink: /about/
 <div class="special-row">
     <div class="col-lg-12">
         <h1>Recent Publications</h1>
-        <!--
         <ul>
-            <li>Comparative evolutionary studies of orthologs across GPCRs & addiction related genes (<a href="https://www.drugabuse.gov/nida-genetics-program/other-resources-in-genetics-cell-biology-neuroscience-research/knowledgebase-addiction-related-genes-ka" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">KARG</a>)</li>
-            <li>Biased signaling studies of DRD4 and Mu-Opioid receptor polymorphisms on GPCRs</li>
+            <li>Mahajan GJ, Vallender EJ, Garrett MR, et al. Altered neuro-inflammatory gene expression in hippocampus in major depressive disorder. Prog Neuropsychopharmacol Biol Psychiatry. 2018;82:177-186. https://doi.org/10.1016/j.psychres.2018.09.032</li>
+            <!--<li>Biased signaling studies of DRD4 and Mu-Opioid receptor polymorphisms on GPCRs</li>
             <li>Microbiome analysis to determine potential substance abuse relationships</li>
             <li>Studying mRNA expression in various tissue types of genes implicated in psychiatric disorders and genotyping specimens to determine how/if genotypes relate to phenotypes</li>
         </ul>
