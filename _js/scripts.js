@@ -171,6 +171,7 @@ $( ".modal__overlay" ).click( function() {
     removeModal();
 } );
 
+/*
 // Contact Form Validation
 function formCheck() {
     $( ".js-submit" ).click( function( e ) {
@@ -266,3 +267,4 @@ $( "#contactForm" ).submit( function( e ) {
         }
     } );
 } );
+*/
