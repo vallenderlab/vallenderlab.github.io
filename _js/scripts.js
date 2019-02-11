@@ -242,7 +242,7 @@ $( "#contactForm" ).submit( function( e ) {
     $.ajax( {
 
         // Change the email address here:
-        url: "https://formspree.io/shauritadhutchins@gmail.com",
+        url: "https://formspree.io/shutchins2@umc.edu",
         method: "POST",
         data: $( this ).serialize(),
         dataType: "json",
