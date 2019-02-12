@@ -21,6 +21,7 @@ permalink: /about/
             <li>Biased signaling studies of DRD4 and Mu-Opioid receptor polymorphisms on GPCRs</li>
             <li>Microbiome analysis to determine potential substance abuse relationships</li>
             <li>Studying mRNA expression in various tissue types of genes implicated in psychiatric disorders and genotyping specimens to determine how/if genotypes relate to phenotypes</li>
+            <li>Development of improved animal models and usage of animals in biomedicine</li>
         </ul>
     </div>
 </div>
@@ -34,6 +35,8 @@ permalink: /about/
         <h1>Recent Publications</h1>
         <ul>
             <li>Mahajan GJ, Vallender EJ, Garrett MR, et al. Altered neuro-inflammatory gene expression in hippocampus in major depressive disorder. Prog Neuropsychopharmacol Biol Psychiatry. 2018;82:177-186. <a href="https://doi.org/10.1016/j.psychres.2018.09.032" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"> https://doi.org/10.1016/j.psychres.2018.09.032</a></li>
+            <li>Vallender EJ, Goswami DB, Shinday NM, Westmoreland SV, Yao WD, Rowlett JK. Transcriptomic profiling of the ventral tegmental area and nucleus accumbens in rhesus macaques following long-term cocaine self-administration. Drug Alcohol Depend. 2017;175:9-23. <a href="https://doi.org/10.1016/j.drugalcdep.2017.01.030" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"> https://doi.org/10.1016/j.drugalcdep.2017.01.030</a></li>
+            <li>Goswami DB, Ogawa LM, Ward JM, Miller GM, Vallender EJ. Large-scale polymorphism discovery in macaque G-protein coupled receptors. BMC Genomics 2013; 14(1):703. <a href="https://doi.org/10.1186/1471-2164-14-703" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"> https://doi.org/10.1186/1471-2164-14-703</a></li>
             <!--<li>Biased signaling studies of DRD4 and Mu-Opioid receptor polymorphisms on GPCRs</li>
             <li>Microbiome analysis to determine potential substance abuse relationships</li>
             <li>Studying mRNA expression in various tissue types of genes implicated in psychiatric disorders and genotyping specimens to determine how/if genotypes relate to phenotypes</li> -->
