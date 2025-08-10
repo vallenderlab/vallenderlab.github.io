@@ -10,22 +10,29 @@
     <noscript><img src="{{site.url}}/assets/img/posts/{{post.featured-img}}_thumb.jpg" alt="{{ post.title }}"></noscript>
   </figure>
   {% else %}
-  <figure class="post-card__thumb">
-    <div class="dark-bg"></div>
+  <figure class="post-card__thumb post-card__thumb--no-image">
   </figure>
   {% endif %}
   <div class="post-card__inner">
     <div class="post-card__header">
       <h2>{{ post.title | strip_html | truncate: 50 }}</h2>
-      {% assign date_format = site.sleek.date_format | default: "%b %-d, %Y" %}
+      {% assign date_format = "%b %-d, %Y" %}
       <span class="post-card__meta">
         <time>{{ post.date | date: date_format }}</time>
       </span>
     </div>
     {% if post.summary %}
-      <p>{{ post.summary | strip_html | truncatewords:20 }}</p>
+      {% if post.featured-img %}
+        <p>{{ post.summary | strip_html | truncatewords: 20 }}</p>
+      {% else %}
+        <p>{{ post.summary | strip_html | truncatewords: 25 }}</p>
+      {% endif %}
     {% else %}
-      <p>{{ post.content | strip_html | truncatewords: 20 }}</p>
+      {% if post.featured-img %}
+        <p>{{ post.content | strip_html | truncatewords: 20 }}</p>
+      {% else %}
+        <p>{{ post.content | strip_html | truncatewords: 25 }}</p>
+      {% endif %}
     {% endif %}
   </div>
 </a>

@@ -46,10 +46,21 @@
   }
 
   .header__logo--container {
-    width: 58px;
+    width: auto;
+    min-width: 350px;
+    display: flex;
+    align-items: center;
 
-    .logo {
-      fill: currentColor;
+    .header__logo--text {
+      font-family: Georgia, serif;
+      font-size: 2rem;
+      font-weight: bold;
+      color: $heading-color;
+      margin: 0;
+      padding: 0;
+      line-height: 1;
+      text-decoration: none;
+      letter-spacing: 1px;
     }
   }
 }
